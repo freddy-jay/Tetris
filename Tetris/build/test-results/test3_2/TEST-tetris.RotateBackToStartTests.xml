@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tetris.RotateBackToStartTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-16T15:01:44" hostname="MacBook-Pro-di-Federico.local" time="0.02">
+  <properties/>
+  <testcase name="testRotate360" classname="tetris.RotateBackToStartTests" time="0.005"/>
+  <testcase name="testRotate360CC" classname="tetris.RotateBackToStartTests" time="0.003"/>
+  <testcase name="testRotateLeftRight" classname="tetris.RotateBackToStartTests" time="0.003"/>
+  <testcase name="testRotateRightLeft" classname="tetris.RotateBackToStartTests" time="0.008"/>
+  <system-out><![CDATA[---rotateRight()
+Point(1,1)
+Tetromino(ICell,Point(1,1),List(Point(1,1), Point(0,1), Point(2,1), Point(3,1)))
+Tetromino(ICell,Point(1,1),List(Point(2,1), Point(2,0), Point(2,2), Point(2,3)))
+---rotateRight()
+Point(1,1)
+Tetromino(ICell,Point(1,1),List(Point(2,1), Point(2,0), Point(2,2), Point(2,3)))
+Tetromino(ICell,Point(1,1),List(Point(2,2), Point(3,2), Point(1,2), Point(0,2)))
+---rotateRight()
+Point(1,1)
+Tetromino(ICell,Point(1,1),List(Point(2,2), Point(3,2), Point(1,2), Point(0,2)))
+Tetromino(ICell,Point(1,1),List(Point(1,2), Point(1,3), Point(1,1), Point(1,0)))
+---rotateRight()
+Point(1,1)
+Tetromino(ICell,Point(1,1),List(Point(1,2), Point(1,3), Point(1,1), Point(1,0)))
+Tetromino(ICell,Point(1,1),List(Point(1,1), Point(0,1), Point(2,1), Point(3,1)))
+---rotateRight()
+---rotateRight()
+---rotateRight()
+---rotateRight()
+---rotateRight()
+Point(1,1)
+Tetromino(ZCell,Point(1,1),List(Point(1,1), Point(1,0), Point(0,0), Point(2,1)))
+Tetromino(ZCell,Point(1,1),List(Point(1,1), Point(2,1), Point(2,0), Point(1,2)))
+---rotateRight()
+---rotateRight()
+---rotateRight()
+---rotateRight()
+Point(1,1)
+Tetromino(LCell,Point(1,1),List(Point(1,1), Point(2,1), Point(0,2), Point(0,1)))
+Tetromino(LCell,Point(1,1),List(Point(1,1), Point(1,2), Point(0,0), Point(1,0)))
+---rotateRight()
+Point(1,1)
+Tetromino(LCell,Point(1,1),List(Point(1,1), Point(1,2), Point(0,0), Point(1,0)))
+Tetromino(LCell,Point(1,1),List(Point(1,1), Point(0,1), Point(2,0), Point(2,1)))
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

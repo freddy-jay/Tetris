@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tetris.GameOverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-16T15:01:44" hostname="MacBook-Pro-di-Federico.local" time="0.008">
+  <properties/>
+  <testcase name="testGameOver" classname="tetris.GameOverTests" time="0.003"/>
+  <testcase name="testNoEscapeGameOver" classname="tetris.GameOverTests" time="0.002"/>
+  <testcase name="testNoEscapeGameOver2" classname="tetris.GameOverTests" time="0.002"/>
+  <system-out><![CDATA[---moveDown()
+---moveDown()
+---moveDown()
+---moveDown()
+---moveDown()
+---moveDown()
+---moveDown()
+---moveDown()
+---moveDown()
+---moveRight()
+---moveRight()
+---rotateRight()
+Point(1,1)
+Tetromino(JCell,Point(1,1),List(Point(1,1), Point(0,1), Point(0,0), Point(2,1)))
+Tetromino(JCell,Point(1,1),List(Point(1,1), Point(1,0), Point(2,0), Point(1,2)))
+---moveLeft()
+---moveLeft()
+---moveDown()
+---moveDown()
+---moveDown()
+---rotateRight()
+Point(1,1)
+Tetromino(ICell,Point(1,1),List(Point(1,1), Point(0,1), Point(2,1), Point(3,1)))
+Tetromino(ICell,Point(1,1),List(Point(2,1), Point(2,0), Point(2,2), Point(2,3)))
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

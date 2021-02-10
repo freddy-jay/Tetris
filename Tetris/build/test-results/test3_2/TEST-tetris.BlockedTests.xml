@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tetris.BlockedTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-10-16T15:01:44" hostname="MacBook-Pro-di-Federico.local" time="0.019">
+  <properties/>
+  <testcase name="testMoveOutLeft" classname="tetris.BlockedTests" time="0.004"/>
+  <testcase name="testMoveOutRight" classname="tetris.BlockedTests" time="0.005"/>
+  <testcase name="testBlockedByBlocksLeft" classname="tetris.BlockedTests" time="0.002"/>
+  <testcase name="testBlockedByBlocksRight" classname="tetris.BlockedTests" time="0.003"/>
+  <testcase name="testBlockedByBlocksRotateLeft" classname="tetris.BlockedTests" time="0.002"/>
+  <testcase name="testBlockedByBlocksRotateRight" classname="tetris.BlockedTests" time="0.002"/>
+  <system-out><![CDATA[---moveLeft()
+---moveLeft()
+---moveLeft()
+---moveLeft()
+---moveLeft()
+---moveLeft()
+---moveLeft()
+---moveLeft()
+---moveLeft()
+---moveRight()
+---moveRight()
+---moveRight()
+---moveRight()
+---moveRight()
+---moveRight()
+---moveRight()
+---moveRight()
+---moveRight()
+---moveRight()
+---moveLeft()
+---moveRight()
+---moveRight()
+---moveRight()
+---rotateRight()
+---rotateRight()
+Point(2,1)
+Tetromino(ICell,Point(2,1),List(Point(2,1), Point(1,1), Point(3,1), Point(4,1)))
+Tetromino(ICell,Point(2,1),List(Point(3,1), Point(3,0), Point(3,2), Point(3,3)))
+---moveLeft()
+---moveLeft()
+---rotateRight()
+Point(1,1)
+Tetromino(ICell,Point(1,1),List(Point(1,1), Point(0,1), Point(2,1), Point(3,1)))
+Tetromino(ICell,Point(1,1),List(Point(2,1), Point(2,0), Point(2,2), Point(2,3)))
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
